@@ -1,0 +1,188 @@
+{
+	"characters": [
+		{
+			"id": 1,
+			"name": "Robobot",
+			"sprite": "robobot.png",
+			"class": "Robot",
+			"level": 1,
+			"description": "Followed by a mysterious presence.",
+			"hp": 100,
+			"max_hp": 100,
+			"stats": {
+				"str": 20,
+				"dex": 10,
+				"con": 20,
+				"wis": 0,
+				"cha": 0
+			},
+			"equipment": {
+				"head": 211,
+				"torso": 212,
+				"right_arm": 0,
+				"left_arm": 0,
+				"right_leg": 0,
+				"left_leg": 0
+			},
+			"inventory": [
+				{
+					"id": 211,
+					"amount": 1
+				},
+				{
+					"id": 212,
+					"amount": 1
+				},
+				{
+					"id": 304,
+					"amount": 1
+				},
+				{
+					"id": 302,
+					"amount": 1
+				},
+				{
+					"id": 302,
+					"amount": 1
+				},
+				{
+					"id": 302,
+					"amount": 1
+				},
+				{
+					"id": 302,
+					"amount": 1
+				},
+				{
+					"id": 104,
+					"amount": 2
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "Pepper",
+			"sprite": "pepper.png",
+			"class": "Warrior",
+			"level": 1,
+			"description": "Farts proudly.",
+			"hp": 100,
+			"max_hp": 100,
+			"stats": {
+				"str": 20,
+				"dex": 10,
+				"con": 0,
+				"wis": 0,
+				"cha": 5
+			},
+			"equipment": {
+				"head": 0,
+				"torso": 0,
+				"right_arm": 0,
+				"left_arm": 0,
+				"right_leg": 0,
+				"left_leg": 0
+			},
+			"inventory": [
+				{
+					"id": 102,
+					"amount": 3
+				}
+			]
+		},
+		{
+			"id": 3,
+			"name": "Strongman",
+			"sprite": "strongman.png",
+			"class": "Warrior",
+			"level": 1,
+			"description": "Likes lifting large rocks.",
+			"hp": 120,
+			"max_hp": 120,
+			"stats": {
+				"str": 20,
+				"dex": 10,
+				"con": 0,
+				"wis": 0,
+				"cha": 10
+			},
+			"equipment": {
+				"head": 211,
+				"torso": 212,
+				"right_arm": 0,
+				"left_arm": 213,
+				"right_leg": 0,
+				"left_leg": 0
+			},
+			"inventory": [
+				{
+					"id": 401,
+					"amount": 6
+				},
+				{
+					"id": 104,
+					"amount": 2
+				},
+				{
+					"id": 101,
+					"amount": 4
+				}
+			]
+		},
+		{
+			"id": 4,
+			"name": "Mouse",
+			"sprite": "mouse.png",
+			"class": "Mage",
+			"level": 1,
+			"description": "Doesn't like loud noises.",
+			"hp": 70,
+			"max_hp": 70,
+			"stats": {
+				"str": 0,
+				"dex": 20,
+				"con": 10,
+				"wis": 5,
+				"cha": 0
+			},
+			"equipment": {
+				"head": 0,
+				"torso": 0,
+				"right_arm": 0,
+				"left_arm": 0,
+				"right_leg": 0,
+				"left_leg": 0
+			},
+			"inventory": [
+				{
+					"id": 104,
+					"amount": 5
+				},
+				{
+					"id": 201,
+					"amount": 1
+				},
+				{
+					"id": 202,
+					"amount": 1
+				},
+				{
+					"id": 211,
+					"amount": 1
+				},
+				{
+					"id": 213,
+					"amount": 1
+				},
+				{
+					"id": 301,
+					"amount": 1
+				},
+				{
+					"id": 302,
+					"amount": 1
+				}
+			]
+		}
+	]
+}

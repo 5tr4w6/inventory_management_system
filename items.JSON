@@ -1,0 +1,152 @@
+{
+    "items": [
+        {
+            "id": 101,
+            "name": "Hearty stew",
+            "description": "Restores 30 HP.",
+            "category": "Food",
+            "stackable": true,
+            "heal": 30
+        },
+        {
+            "id": 102,
+            "name": "Moldy bread",
+            "description": "Restores 5 HP.",
+            "category": "Food",
+            "stackable": true,
+            "heal": 5
+        },
+        {
+            "id": 104,
+            "name": "Cheese",
+            "description": "A trend amongst mice. Restores 10 HP",
+            "category": "Food",
+            "stackable": true,
+            "heal": 10
+        },
+        {
+            "id": 105,
+            "name": "Health Potion",
+            "description": "Restores 40 HP.",
+            "category": "Potion",
+            "stackable": true,
+            "heal": 40
+        },
+        {
+            "id": 201,
+            "name": "Robot Helmet",
+            "description": "Part of the Robot set.",
+            "category": "Armor",
+            "slot": "Head",
+            "armor_type": "Medium",
+            "min_str": 5,
+            "set_id": 1,
+            "bonus": {
+                "con": 2
+            }
+        },
+        {
+            "id": 202,
+            "name": "Robot Chestplate",
+            "description": "Part of the Robot set.",
+            "category": "Armor",
+            "slot": "Torso",
+            "armor_type": "Medium",
+            "min_str": 8,
+            "set_id": 1,
+            "bonus": {
+                "con": 4
+            }
+        },
+        {
+            "id": 211,
+            "name": "Knight Helmet",
+            "description": "Part of the Knight set.",
+            "category": "Armor",
+            "slot": "Head",
+            "armor_type": "Heavy",
+            "min_str": 12,
+            "set_id": 2,
+            "bonus": {
+                "con": 3
+            }
+        },
+        {
+            "id": 212,
+            "name": "Knight Plate Armor",
+            "description": "Part of the Knight set.",
+            "category": "Armor",
+            "slot": "Torso",
+            "armor_type": "Heavy",
+            "min_str": 15,
+            "set_id": 2,
+            "bonus": {
+                "con": 6
+            }
+        },
+        {
+            "id": 213,
+            "name": "Knight Shield",
+            "description": "Part of the Knight set.",
+            "category": "Armor",
+            "slot": "Left_Arm",
+            "armor_type": "Heavy",
+            "min_str": 10,
+            "set_id": 2,
+            "bonus": {
+                "con": 3
+            }
+        },
+        {
+            "id": 301,
+            "name": "Short Sword",
+            "description": "One-handed sword.",
+            "category": "Weapon",
+            "slot": "Right_Arm",
+            "bonus": {
+                "str": 2
+            }
+        },
+        {
+            "id": 302,
+            "name": "Greatsword",
+            "description": "Two-handed sword.",
+            "category": "Weapon",
+            "slot": "Right_Arm",
+            "two_handed": true,
+            "min_str": 14,
+            "bonus": {
+                "str": 5
+            }
+        },
+        {
+            "id": 303,
+            "name": "Mage Staff",
+            "description": "Only mages can wield it.",
+            "category": "Weapon",
+            "slot": "Right_Arm",
+            "two_handed": true,
+            "class_req": "Mage",
+            "bonus": {
+                "int": 5
+            }
+        },
+        {
+            "id": 304,
+            "name": "Magical trinket",
+            "description": "Has pretty crystals on it.",
+            "category": "Weapon",
+            "slot": "Right_Arm",
+            "bonus": {
+                "con": 5
+            }
+        },
+        {
+            "id": 401,
+            "name": "Iron Ore",
+            "description": "Crafting material.",
+            "category": "Material",
+            "stackable": true
+        }
+    ]
+}
