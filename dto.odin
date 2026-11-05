@@ -145,6 +145,7 @@ load_characters :: proc(p: ^Party, lib: ^Item_Library, path: string) -> bool {
 }
 save_characters :: proc(p: ^Party, path: string) -> bool {
 	dtos := make([dynamic]Character_DTO, context.temp_allocator)
+	defer delete(dtos)
 
 	if p.characters.tail != nil {
 		current := p.characters.tail.next
@@ -152,6 +153,7 @@ save_characters :: proc(p: ^Party, path: string) -> bool {
 			c := current.value
 
 			invs := make([dynamic]Inventory_DTO, context.temp_allocator)
+			defer delete(invs)
 			inv_it := list.iterator_head(c.inventory, Inventory_Item, "node")
 			for inv in list.iterate_next(&inv_it) {
 				append(&invs, Inventory_DTO{id = inv.id, amount = inv.amount})
