@@ -17,8 +17,8 @@
 				"cha": 0
 			},
 			"equipment": {
-				"head": 211,
-				"torso": 212,
+				"head": 0,
+				"torso": 0,
 				"right_arm": 0,
 				"left_arm": 0,
 				"right_leg": 0,
@@ -26,36 +26,32 @@
 			},
 			"inventory": [
 				{
-					"id": 211,
-					"amount": 1
+					"id": 105,
+					"amount": 5
 				},
 				{
-					"id": 212,
-					"amount": 1
-				},
-				{
-					"id": 304,
-					"amount": 1
-				},
-				{
-					"id": 302,
-					"amount": 1
-				},
-				{
-					"id": 302,
-					"amount": 1
-				},
-				{
-					"id": 302,
-					"amount": 1
-				},
-				{
-					"id": 302,
-					"amount": 1
-				},
-				{
-					"id": 104,
+					"id": 102,
 					"amount": 2
+				},
+				{
+					"id": 106,
+					"amount": 1
+				},
+				{
+					"id": 201,
+					"amount": 1
+				},
+				{
+					"id": 202,
+					"amount": 1
+				},
+				{
+					"id": 303,
+					"amount": 1
+				},
+				{
+					"id": 401,
+					"amount": 1
 				}
 			]
 		},
@@ -85,8 +81,20 @@
 			},
 			"inventory": [
 				{
-					"id": 102,
-					"amount": 3
+					"id": 105,
+					"amount": 2
+				},
+				{
+					"id": 402,
+					"amount": 12
+				},
+				{
+					"id": 302,
+					"amount": 1
+				},
+				{
+					"id": 213,
+					"amount": 1
 				}
 			]
 		},
@@ -107,25 +115,37 @@
 				"cha": 10
 			},
 			"equipment": {
-				"head": 211,
-				"torso": 212,
+				"head": 0,
+				"torso": 0,
 				"right_arm": 0,
-				"left_arm": 213,
+				"left_arm": 0,
 				"right_leg": 0,
 				"left_leg": 0
 			},
 			"inventory": [
 				{
-					"id": 401,
-					"amount": 6
+					"id": 211,
+					"amount": 1
 				},
 				{
-					"id": 104,
-					"amount": 2
+					"id": 212,
+					"amount": 1
 				},
 				{
-					"id": 101,
-					"amount": 4
+					"id": 107,
+					"amount": 1
+				},
+				{
+					"id": 201,
+					"amount": 1
+				},
+				{
+					"id": 201,
+					"amount": 1
+				},
+				{
+					"id": 202,
+					"amount": 1
 				}
 			]
 		},
@@ -155,32 +175,16 @@
 			},
 			"inventory": [
 				{
+					"id": 304,
+					"amount": 1
+				},
+				{
+					"id": 107,
+					"amount": 6
+				},
+				{
 					"id": 104,
-					"amount": 5
-				},
-				{
-					"id": 201,
-					"amount": 1
-				},
-				{
-					"id": 202,
-					"amount": 1
-				},
-				{
-					"id": 211,
-					"amount": 1
-				},
-				{
-					"id": 213,
-					"amount": 1
-				},
-				{
-					"id": 301,
-					"amount": 1
-				},
-				{
-					"id": 302,
-					"amount": 1
+					"amount": 8
 				}
 			]
 		}
