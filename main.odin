@@ -6,7 +6,7 @@ import "core:strings"
 import rl "vendor:raylib"
 
 BG :: rl.Color{30, 20, 28, 255}
-DIM :: rl.Color{75, 55, 71, 255}
+DIM :: rl.Color{160, 137, 155, 255}
 HIGHLIGHT :: rl.Color{160, 137, 155, 255}
 SELECTED :: DIM
 GREEN :: rl.Color{118, 168, 108, 255}
@@ -132,7 +132,7 @@ main :: proc() {
 						rd := library_find(&lib, rec.id)
 						draw(
 							fmt.tprintf(
-								"Recommended for %v: %s (score %d)",
+								"Recommended for %v: \n%s (score %d)",
 								Character_Slot(i + 1),
 								rd.name,
 								score,
@@ -140,17 +140,18 @@ main :: proc() {
 							160,
 							170,
 							GREEN,
-							10,
+							16,
 						)
-						draw(bonus_text(rd.bonus), 160, 170 + 10, GREEN, 10)
+						draw(bonus_text(rd.bonus), 160, 170 + 40, GREEN, 15); break
 					} else {
 						draw(
 							fmt.tprintf("No improvement available for %v.", Character_Slot(i + 1)),
 							160,
 							170,
 							DIM,
-							10,
+							16,
 						)
+						break
 					}
 				}
 			}
@@ -221,7 +222,7 @@ main :: proc() {
 
 			color := DIM
 			if current == party.active {
-				color = HIGHLIGHT
+				color = rl.WHITE
 			}
 			draw(fmt.tprintf("%s", c.name), 25, 300 + cha_name_y, color, 25)
 
@@ -314,11 +315,11 @@ main :: proc() {
 				)
 				if ok, reason := can_equip(ch, &lib, d); !ok {
 					draw(
-						fmt.tprintf("Cannot equip: %s", reason),
+						fmt.tprintf("Cannot equip: \n%s", reason),
 						item_info_x,
 						item_info_y + 60,
 						rl.RED,
-						10,
+						16,
 					)
 				}
 			}

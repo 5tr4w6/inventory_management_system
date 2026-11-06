@@ -146,7 +146,7 @@
             "two_handed": true,
             "class_req": "Mage",
             "bonus": {
-                "int": 5
+                "wis": 5
             }
         },
         {

@@ -18,8 +18,8 @@
 			},
 			"equipment": {
 				"head": 0,
-				"torso": 0,
-				"right_arm": 0,
+				"torso": 202,
+				"right_arm": 302,
 				"left_arm": 0,
 				"right_leg": 0,
 				"left_leg": 0
@@ -38,19 +38,31 @@
 					"amount": 1
 				},
 				{
-					"id": 201,
-					"amount": 1
-				},
-				{
-					"id": 202,
-					"amount": 1
-				},
-				{
 					"id": 303,
 					"amount": 1
 				},
 				{
 					"id": 401,
+					"amount": 1
+				},
+				{
+					"id": 301,
+					"amount": 1
+				},
+				{
+					"id": 107,
+					"amount": 1
+				},
+				{
+					"id": 213,
+					"amount": 1
+				},
+				{
+					"id": 301,
+					"amount": 1
+				},
+				{
+					"id": 201,
 					"amount": 1
 				}
 			]
@@ -62,7 +74,7 @@
 			"class": "Warrior",
 			"level": 1,
 			"description": "Farts proudly.",
-			"hp": 100,
+			"hp": 70,
 			"max_hp": 100,
 			"stats": {
 				"str": 20,
@@ -74,7 +86,7 @@
 			"equipment": {
 				"head": 0,
 				"torso": 0,
-				"right_arm": 0,
+				"right_arm": 302,
 				"left_arm": 0,
 				"right_leg": 0,
 				"left_leg": 0
@@ -82,15 +94,11 @@
 			"inventory": [
 				{
 					"id": 105,
-					"amount": 2
+					"amount": 1
 				},
 				{
 					"id": 402,
-					"amount": 12
-				},
-				{
-					"id": 302,
-					"amount": 1
+					"amount": 11
 				},
 				{
 					"id": 213,
@@ -105,7 +113,7 @@
 			"class": "Warrior",
 			"level": 1,
 			"description": "Likes lifting large rocks.",
-			"hp": 120,
+			"hp": 80,
 			"max_hp": 120,
 			"stats": {
 				"str": 20,
@@ -132,10 +140,6 @@
 					"amount": 1
 				},
 				{
-					"id": 107,
-					"amount": 1
-				},
-				{
 					"id": 201,
 					"amount": 1
 				},
@@ -146,6 +150,18 @@
 				{
 					"id": 202,
 					"amount": 1
+				},
+				{
+					"id": 211,
+					"amount": 1
+				},
+				{
+					"id": 212,
+					"amount": 1
+				},
+				{
+					"id": 104,
+					"amount": 4
 				}
 			]
 		},
@@ -156,7 +172,7 @@
 			"class": "Mage",
 			"level": 1,
 			"description": "Doesn't like loud noises.",
-			"hp": 70,
+			"hp": 10,
 			"max_hp": 70,
 			"stats": {
 				"str": 0,
@@ -175,16 +191,24 @@
 			},
 			"inventory": [
 				{
-					"id": 304,
-					"amount": 1
-				},
-				{
 					"id": 107,
 					"amount": 6
 				},
 				{
 					"id": 104,
-					"amount": 8
+					"amount": 9
+				},
+				{
+					"id": 303,
+					"amount": 1
+				},
+				{
+					"id": 212,
+					"amount": 1
+				},
+				{
+					"id": 211,
+					"amount": 1
 				}
 			]
 		}
